@@ -1,0 +1,223 @@
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: grey;
+}
+
+a:hover {
+    color: lightgray;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+}
+
+.navbar{
+    position: fixed;
+    z-index: 10000;
+    top: 0px;
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    opacity: 0.7;
+
+}
+
+#home-icon{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    float: left;
+}
+
+#home{
+    width: 100px;
+    padding: 20px;
+    font-size: 20px;
+    margin: 1px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+#about{
+    width: 100px;
+    padding: 20px;
+    font-size: 20px;
+    margin: 1px;
+    margin-left: 130px;
+    position: absolute;
+}
+
+#archives{
+    width: 100px;
+    padding: 20px;
+    font-size: 20px;
+    margin: 1px;
+    margin-left: 215px;
+    position: absolute;
+}
+
+#maps{
+    width: 100px;
+    padding: 20px;
+    font-size: 20px;
+    margin: 1px;
+    margin-left: 325px;
+    position: absolute;
+}
+
+#search-box{
+    height: 30px;
+    width: 180px;
+    float: right;
+    margin: 16px;
+    margin-right: 70px;
+    padding-left: 10px;
+}
+
+#search-icon{
+    height: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 1330px;
+    position: absolute;
+    float: right;
+}
+
+#map-container{
+    position: relative;
+    margin-top: 20px;
+}
+
+#title{
+	font-size: 40px;
+	text-align: center;
+	color: grey;
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: 80px;
+
+}
+
+#image-map{
+    margin: 20px;
+    margin-left: 40px;
+}
+
+#pin1{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    margin-right: 340;
+    margin-top: 330;
+    cursor: pointer;
+}
+
+#pin2{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    margin-left: 115px;
+    margin-top: 170px;
+}
+
+#pin3{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    margin-left: 589px;
+    margin-top: 115px;
+}
+
+#pin4{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    margin-top: 340px;
+    margin-right: 385px;
+}
+
+#pin5{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    margin-right: 370;
+    margin-top: 200px;
+}
+
+#pin6{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    margin-left: 280px;
+    margin-top: 180px;
+    cursor: pointer;
+}
+
+#pin7{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    margin-left: 800px;
+    margin-top: 130px;
+}
+
+#pin8{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    margin-left: 635px;
+    margin-top: 110px;
+}
+
+.popover{
+    background: #a9a9a9;
+    width: 300px;
+    border-radius: 5px;
+    position: absolute;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 140px;
+    opacity: 0;
+    transition: linear 0.1s;
+    right: 40px;
+    bottom: 140px;
+}
+
+.popover-6{
+    background: #a9a9a9;
+    width: 300px;
+    border-radius: 5px;
+    position: absolute;
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 140px;
+    opacity: 0;
+    transition: linear 0.1s;
+    left: 0px;
+    bottom: 250px;
+}
+
+.popover-active{
+    opacity: 1;
+}
+
